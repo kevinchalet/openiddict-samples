@@ -47,10 +47,10 @@
       Condition=" '$(NetFrameworkTargetFramework)' == '' ">net48</NetFrameworkTargetFramework>
 
     <NetCoreTargetFramework
-      Condition=" '$(NetCoreTargetFramework)' == '' ">net10.0</NetCoreTargetFramework>
+      Condition=" '$(NetCoreTargetFramework)' == '' ">net11.0</NetCoreTargetFramework>
 
     <NetCoreWindowsTargetFramework
-      Condition=" '$(NetCoreWindowsTargetFramework)' == '' ">net10.0-windows</NetCoreWindowsTargetFramework>
+      Condition=" '$(NetCoreWindowsTargetFramework)' == '' ">net11.0-windows</NetCoreWindowsTargetFramework>
   </PropertyGroup>
 
   <!--
